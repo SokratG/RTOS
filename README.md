@@ -32,3 +32,8 @@
 <p> For build porject need Keil uvision version 5.0 or more. This project include set up for TM4C123GXL, but it's easy to fix, just change device in Keil and use address appropriate board.</p>
 </div> 
 
+<div>
+  <h4><i>***Reference***</i></h4>
+  <p><b>Book:</b><br>"Embedded Systems: Real-Time Operating Systems for ARM Cortex-M Microcontrollers",
+   ISBN: 978-1466468863, Jonathan Valvano, 2016</p>
+</div> 
