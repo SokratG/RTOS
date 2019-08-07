@@ -16,9 +16,11 @@
  <div>
 <h4><i>File system</i></h4>
  <p> File system include in self - directories, file allocation table and sector for stored data. Implementation split of the some abstraction layer:<br>
-  1) Low-level in module "FlashProgram" operate directly address into microcontroller. <b>Address in ROM depend from type of board, read datasheet for know them.</b><br>
-  2) Mid-level in module "DiskFlash" operate disk sectors.<br>
-  3) High-level in module "FileSys" operate on files. Include create new file, check file size, append into file, file read, file flush, and format files.</p>
+<ol>
+ <li>Low-level in module "FlashProgram" operate directly address into microcontroller. <b>Address in ROM depend from type of board, read datasheet for know them.</b><br></li>
+  <li>Mid-level in module "DiskFlash" operate disk sectors.<br></li>
+  <li>High-level in module "FileSys" operate on files. Include create new file, check file size, append into file, file read, file flush, and format files.</p></li>
+ </ol>
 </div>
 
 <div>
@@ -33,7 +35,7 @@
 </div> 
 
 <div>
-  <h4><i>***Reference***</i></h4>
+  <h4><i>***Reference:***</i></h4>
   <p><b>Book:</b><br>"Embedded Systems: Real-Time Operating Systems for ARM Cortex-M Microcontrollers",
    ISBN: 978-1466468863, Jonathan Valvano, 2016</p>
 </div> 
